@@ -5,171 +5,107 @@
   <title>Tushar Pandey | Data Analyst</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, Arial, sans-serif;
-      background: #f5f7fb;
-      color: #1f2933;
-    }
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
-    }
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.4rem;
-    }
-
-    header p {
-      color: #555;
-      margin-top: 8px;
-    }
-
-    .links a {
-      margin: 0 10px;
-      font-weight: 500;
-    }
-
-    section {
-      background: white;
-      border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 24px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-      transition: transform 0.2s ease;
-    }
-
-    section:hover {
-      transform: translateY(-4px);
-    }
-
-    h2 {
-      margin-top: 0;
-      border-bottom: 2px solid #e5e7eb;
-      padding-bottom: 8px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-    }
-
-    .chip {
-      background: #eef2ff;
-      padding: 8px 12px;
-      border-radius: 20px;
-      font-size: 0.9rem;
-      display: inline-block;
-      margin: 6px 6px 0 0;
-    }
-
-    footer {
-      text-align: center;
-      color: #777;
-      font-size: 0.9rem;
-      margin-top: 40px;
-    }
-
-    a {
-      color: #4f46e5;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="container">
 
-    <header>
-      <h1>Tushar Pandey</h1>
-      <p>Aspiring Data Analyst · SQL · Python · Power BI · Tableau</p>
-
-      <div class="links">
-        <a href="mailto:pandeytushar100@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/tushar-pandey-993999253">LinkedIn</a>
-        <a href="https://github.com/TusharPandey100">GitHub</a>
-      </div>
-    </header>
-
-    <section>
-      <h2>About</h2>
-      <p>
-        Data analytics graduate with hands-on experience in SQL, Python, and
-        visualization tools. Interested in transforming raw data into clear,
-        decision-ready insights.
-      </p>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <p>
-        <strong>B.Com (Hons) Accounting & Finance</strong><br>
-        GGSIPU, Delhi · 2022 – 2025
-      </p>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <div class="grid">
-        <div>
-          <strong>RAI Tax Consultants</strong><br>
-          Management Intern<br>
-          Dec 2024 – Jan 2025
-        </div>
-        <div>
-          <strong>File My Return</strong><br>
-          Management Intern<br>
-          Jun 2024 – Aug 2024
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <p>
-        <strong>Amazon Price Tracker</strong><br>
-        Python-based scraper using BeautifulSoup to track daily prices and store
-        results in CSV for analysis.
-      </p>
-      <p>
-        <strong>COVID-19 Data Analysis (India)</strong><br>
-        Data cleaning in MySQL and interactive dashboards in Tableau.
-      </p>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <span class="chip">SQL</span>
-      <span class="chip">Python</span>
-      <span class="chip">Excel</span>
-      <span class="chip">Power BI</span>
-      <span class="chip">Tableau</span>
-    </section>
-
-    <section>
-      <h2>Certifications</h2>
-      <p>Data Analytics Essentials – Cisco</p>
-      <p>Introduction to Data Science – Cisco</p>
-    </section>
-
-    <footer>
-      Built with GitHub Pages · No frameworks · Just clarity
-    </footer>
-
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">Tushar</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
+</nav>
+
+<section class="hero">
+  <h1>Hi, I’m <span>Tushar Pandey</span></h1>
+  <p>Aspiring Data Analyst · SQL · Python · Power BI · Tableau</p>
+
+  <div class="hero-buttons">
+    <a href="#projects" class="btn primary">View Projects</a>
+    <a href="mailto:pandeytushar100@gmail.com" class="btn secondary">Contact Me</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a data analytics student with hands-on experience in SQL, Python, and
+    data visualization. I enjoy converting messy datasets into clear insights
+    that support decision making.
+  </p>
+</section>
+
+<section id="skills" class="section gray">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>SQL</span>
+    <span>Python</span>
+    <span>Excel</span>
+    <span>Power BI</span>
+    <span>Tableau</span>
+    <span>MySQL</span>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Amazon Price Tracker</h3>
+    <p>
+      Built a Python scraper using BeautifulSoup to track daily prices and
+      store data in CSV for analysis.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>COVID-19 Data Analysis (India)</h3>
+    <p>
+      Cleaned datasets using MySQL and created Tableau dashboards to visualize
+      trends in cases and vaccinations.
+    </p>
+  </div>
+</section>
+
+<section id="experience" class="section gray">
+  <h2>Experience</h2>
+
+  <div class="card">
+    <h3>Management Intern – RAI Tax Consultants</h3>
+    <p>Dec 2024 – Jan 2025</p>
+  </div>
+
+  <div class="card">
+    <h3>Management Intern – File My Return</h3>
+    <p>Jun 2024 – Aug 2024</p>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:pandeytushar100@gmail.com">pandeytushar100@gmail.com</a></p>
+  <p>
+    <a href="https://www.linkedin.com/in/tushar-pandey-993999253">LinkedIn</a> ·
+    <a href="https://github.com/TusharPandey100">GitHub</a>
+  </p>
+</section>
+
+<footer>
+  © 2025 Tushar Pandey
+</footer>
+
 </body>
 </html>
