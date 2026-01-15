@@ -1,73 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Tushar Pandey | Data Analyst</title>
   <meta charset="UTF-8">
+  <title>Tushar Pandey | Data Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
+      margin: 0;
+      font-family: system-ui, Arial, sans-serif;
+      background: #f5f7fb;
+      color: #1f2933;
+    }
+
+    .container {
+      max-width: 900px;
       margin: auto;
-      padding: 20px;
-      line-height: 1.6;
+      padding: 40px 20px;
     }
-    h1, h2 {
-      color: #222;
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+
+    header p {
+      color: #555;
+      margin-top: 8px;
+    }
+
+    .links a {
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+    }
+
+    h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .chip {
+      background: #eef2ff;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin: 6px 6px 0 0;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
     a {
-      color: #0366d6;
+      color: #4f46e5;
       text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
 
-<h1>Tushar Pandey</h1>
-<p>Aspiring Data Analyst | SQL | Python | Power BI | Tableau</p>
-<p>Delhi, India</p>
+    <header>
+      <h1>Tushar Pandey</h1>
+      <p>Aspiring Data Analyst · SQL · Python · Power BI · Tableau</p>
 
-<p>
-  📧 <a href="mailto:pandeytushar100@gmail.com">pandeytushar100@gmail.com</a><br>
-  🔗 <a href="https://www.linkedin.com/in/tushar-pandey-993999253">LinkedIn</a><br>
-  💻 <a href="https://github.com/DakaBhai">GitHub</a>
-</p>
+      <div class="links">
+        <a href="mailto:pandeytushar100@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/tushar-pandey-993999253">LinkedIn</a>
+        <a href="https://github.com/TusharPandey100">GitHub</a>
+      </div>
+    </header>
 
-<h2>Education</h2>
-<p>
-<strong>B.Com (Hons) Accounting & Finance</strong><br>
-GGSIPU, Delhi (2022 – 2025)
-</p>
+    <section>
+      <h2>About</h2>
+      <p>
+        Data analytics graduate with hands-on experience in SQL, Python, and
+        visualization tools. Interested in transforming raw data into clear,
+        decision-ready insights.
+      </p>
+    </section>
 
-<h2>Experience</h2>
-<p>
-<strong>Management Intern – RAI Tax Consultants</strong><br>
-Dec 2024 – Jan 2025
-</p>
+    <section>
+      <h2>Education</h2>
+      <p>
+        <strong>B.Com (Hons) Accounting & Finance</strong><br>
+        GGSIPU, Delhi · 2022 – 2025
+      </p>
+    </section>
 
-<p>
-<strong>Management Intern – File My Return</strong><br>
-Jun 2024 – Aug 2024
-</p>
+    <section>
+      <h2>Experience</h2>
+      <div class="grid">
+        <div>
+          <strong>RAI Tax Consultants</strong><br>
+          Management Intern<br>
+          Dec 2024 – Jan 2025
+        </div>
+        <div>
+          <strong>File My Return</strong><br>
+          Management Intern<br>
+          Jun 2024 – Aug 2024
+        </div>
+      </div>
+    </section>
 
-<h2>Projects</h2>
-<p>
-<strong>Amazon Price Tracker</strong><br>
-Python scraper using BeautifulSoup to track daily prices and store data in CSV.
-</p>
+    <section>
+      <h2>Projects</h2>
+      <p>
+        <strong>Amazon Price Tracker</strong><br>
+        Python-based scraper using BeautifulSoup to track daily prices and store
+        results in CSV for analysis.
+      </p>
+      <p>
+        <strong>COVID-19 Data Analysis (India)</strong><br>
+        Data cleaning in MySQL and interactive dashboards in Tableau.
+      </p>
+    </section>
 
-<p>
-<strong>COVID-19 Data Analysis (India)</strong><br>
-Data cleaning in MySQL, dashboards in Tableau.
-</p>
+    <section>
+      <h2>Skills</h2>
+      <span class="chip">SQL</span>
+      <span class="chip">Python</span>
+      <span class="chip">Excel</span>
+      <span class="chip">Power BI</span>
+      <span class="chip">Tableau</span>
+    </section>
 
-<h2>Skills</h2>
-<p>SQL, Python, Excel, Power BI, Tableau</p>
+    <section>
+      <h2>Certifications</h2>
+      <p>Data Analytics Essentials – Cisco</p>
+      <p>Introduction to Data Science – Cisco</p>
+    </section>
 
-<h2>Certifications</h2>
-<p>
-Data Analytics Essentials – Cisco<br>
-Introduction to Data Science – Cisco
-</p>
+    <footer>
+      Built with GitHub Pages · No frameworks · Just clarity
+    </footer>
 
+  </div>
 </body>
 </html>
